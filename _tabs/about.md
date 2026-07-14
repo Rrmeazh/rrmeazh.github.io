@@ -6,7 +6,7 @@ order: 4
 
 ### Hi there!
 
-I'm Rrmeazh, an undergraduate from School of Engineering Mechanics, Norea University of Science & Technology (NUST). I'm planning to pursue a master degree at Department of Electronic Engineering or Guangnan International Graduate School, NUST.
+I'm Rrmeazh, an undergraduate from School of Engineering Mechanics, Norea University of Science & Technology (NUST). I'm planning to pursue a master degree at Department of Electronic Engineering or Greater Bay International Graduate School, NUST.
 
 ### About this site
 
