@@ -1,8 +1,8 @@
 ---
 title: "飞行器结构力学期中试卷"
-date: 2026-07-06 11:45:14 +0800
+date: 2026-07-06 00:00:00 +0800
 categories: [Courses, Mechanics]
-tags: [Solid Mechanics, aerospace]
+tags: [Solid Mechanics, Aerospace]
 math: true
 
 description: 本文为飞行器结构力学的期中试卷

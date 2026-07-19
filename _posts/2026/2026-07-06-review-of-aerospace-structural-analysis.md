@@ -1,8 +1,8 @@
 ---
 title: "飞行器结构力学测评"
-date: 2026-07-06 11:45:14 +0800
+date: 2026-07-06 00:00:00 +0800
 categories: [Courses, Mechanics]
-tags: [Solid Mechanics, aerospace]
+tags: [Solid Mechanics, Aerospace]
 
 description: 本文介绍了某大学的一门“精品”课程，并记载了关于某书院的一些随想
 ---
