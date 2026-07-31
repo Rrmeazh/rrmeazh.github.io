@@ -160,6 +160,15 @@ pwa:
 
 paginate: 10
 
+# Pinned Articles panel in the right sidebar.
+# Set `enabled` to false to hide the panel. List post slugs below in the
+# desired display order; the slug is the filename without its date and `.md`.
+pinned_articles:
+  enabled: true
+  posts:
+    - essay-on-course-selection-methods
+    - review-of-aerospace-structural-analysis
+
 # The base URL of your site
 baseurl: ""
 

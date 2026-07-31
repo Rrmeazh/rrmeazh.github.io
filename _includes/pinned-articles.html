@@ -1,0 +1,23 @@
+{% assign pinned_posts = '' | split: '' %}
+
+{% if site.pinned_articles.enabled %}
+  {% for slug in site.pinned_articles.posts %}
+    {% assign post = site.posts | where: 'slug', slug | first %}
+    {% if post and post.hidden != true %}
+      {% assign pinned_posts = pinned_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if pinned_posts.size > 0 %}
+  <section id="pinned-articles">
+    <h2 class="panel-heading">Pinned Articles</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      {% for post in pinned_posts %}
+        <li class="text-truncate lh-lg">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

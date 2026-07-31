@@ -1,0 +1,25 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Keep the Pinned Articles links consistent with the Recent Updates panel. */
+#pinned-articles a {
+  color: inherit;
+  border-bottom: none;
+}
+
+#pinned-articles a:hover {
+  color: #d2603a !important;
+  border-bottom: 1px solid #d2603a;
+  text-decoration: none;
+}
